@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>html</title>
+		<style>
+			h1{
+				text-align:center;
+				margin-top:auto;
+				margin-bottom:auto;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Hello</h1>
+		<script src="jquery.js"></script>
+		<script>
+		$(document).keypress(function(event){
+		$("h1").before ("<button>New</button>");
+		$("h1").after("<button>New</button>");
+		$("h1").prepend("<button>New</button>");
+		$("h1").append("<button>New</button>");
+		});
+
+
+		
+		</script>
+	</body>
+</html>
